@@ -1,2 +1,1 @@
-# K-Nearest-Neighbours-Project
-K Nearest Neighbours in Python Project
+# K Nearest Neighbours Project with Python and Scikit-Learn
