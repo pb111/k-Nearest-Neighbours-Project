@@ -56,7 +56,8 @@ In kNN algorithm, k is the number of nearest neighbours. Generally, k is an odd 
 
 Now, we want to classify a new data point `X` into `Blue` class or `Red` class. Suppose the value of k is 3. The kNN algorithm starts by calculating the distance between `X` and all the other data points. It then finds the 3 nearest points with least distance to point `X`. This is clearly shown in the figure below. The 3 nearest points have been encircled.
 
-## D-kNN 2
+
+![kNN algorithm in action](https://github.com/pb111/K-Nearest-Neighbours-Project/blob/master/Images/kNN%202.png)
 
 In the final step of the kNN algorithm, we assign the new data point `X` to the majority of the class of the 3 nearest points. From the above figure, we can see that the 2 of the 3 nearest points belong to the class `Red` while 1 belong to the class `Blue`. Therefore, the new data point will be classified as `Red`.
 
