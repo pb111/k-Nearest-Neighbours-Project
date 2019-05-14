@@ -44,9 +44,13 @@ The kNN algorithm intuition is very simple to understand. It simply calculates t
 
 
 ## 3. kNN algorithm in action
+
+
 Now, I will see kNN algorithm in action. Suppose, we have a dataset with two variables, which when plotted, looks like the following figure.
 
-## D-kNN 1
+
+![Scatter-plot of 2 variables](https://github.com/pb111/K-Nearest-Neighbours-Project/blob/master/Images/kNN%201.png)
+
 
 In kNN algorithm, k is the number of nearest neighbours. Generally, k is an odd number because it helps to decide the majority of the class. When k=1, then the algorithm is known as the nearest neighbour algorithm.
 
