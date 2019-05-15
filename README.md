@@ -12,6 +12,7 @@ I have categorized this project into various sections which are listed below:-
 
 
 
+===============================================================================
 
 
 ## 1. Introduction to k Nearest Neighbours (kNN) algorithm
@@ -28,6 +29,8 @@ kNN is a type of instance-based learning or lazy learning. Lazy learning means i
 In kNN, the neighbours are taken from a set of objects for which the class or the object property value is known. This can be thought of as the training set for the kNN algorithm, though no explicit training step is required. In both classification and regression kNN algorithm, we can assign weight to the contributions of the neighbours. So, nearest neighbours contribute more to the average than the more distant ones.
 
 
+===============================================================================
+
 
 ## 2. K Nearest Neighbours (kNN) intuition
 
@@ -39,8 +42,7 @@ The kNN algorithm intuition is very simple to understand. It simply calculates t
 ### Manhattan distance
 
 
-
-
+===============================================================================
 
 
 ## 3. kNN algorithm in action
@@ -61,35 +63,67 @@ Now, we want to classify a new data point `X` into `Blue` class or `Red` class. 
 
 In the final step of the kNN algorithm, we assign the new data point `X` to the majority of the class of the 3 nearest points. From the above figure, we can see that the 2 of the 3 nearest points belong to the class `Red` while 1 belong to the class `Blue`. Therefore, the new data point will be classified as `Red`.
 
+
+===============================================================================
+
 ## 4. How to decide the number of neighbours in kNN
 
+
+===============================================================================
+
 ## 5. Eager learners vs lazy learners
+
+
 `Eager learners` mean when giving training data points, we will construct a generalized model before performing prediction on given new points to classify. We can think of such learners as being ready, active and eager to classify new data points. 
+
+
 `Lazy learning` means there is no need for learning or training of the model and all of the data points are used at the time of prediction. Lazy learners wait until the last minute before classifying any data point. They merely store the training dataset and waits until classification needs to perform. Lazy learners are also known as `instance-based learners` because lazy learners store the training points or instances, and all learning is based on instances.
+
+
 Unlike eager learners, lazy learners do less work in the training phase and more work in the testing phase to make a classification. 
 
 
-
-## 6. Curse of dimensionality
-kNN algorithm usually performs much better with a lower number of features than a large number of features. When the number of features increases, then it requires more data. Increase in dimension also leads to the problem of overfitting. To avoid overfitting, the data will need to grow exponentially as we increase the number of dimensions. This problem of higher dimension is known as the **Curse of Dimensionality**.
-To deal with this problem of the curse of dimensionality, we have to perform `Principal Component Analysis` before applying any machine learning algorithm, or we can also use feature selection approach.
+===============================================================================
 
 
-## 7. Advantages and disadvantages of kNN algorithm
+## 6. Advantages and disadvantages of kNN algorithm
+
+
 The advantages of kNN algorithm are as follows:-
+
+
 1.	kNN is simple to implement.
 2.	It executes quickly for small training datasets.
 3.	kNN performance is asymptotically similar to the performance of the Bayes classifier.
 4.	It does not need any prior knowledge about the structure of the data in training set.
 5.	In kNN algorithm, no retraining is required if the new training pattern is added to the existing training set.
 
+
 The disadvantages of kNN algorithm are as follows:-
+
 1.	When the training set is large, it may take a lot of space and memory.
 2.	For every test data, the distance should be computed between test data and all the training data samples. Thus, a lot of time may be needed for testing.
 
-## 8. The problem statement
-## 9. Results and conclusion
-## 10. Applications of kNN
-## 11. References
+
+===============================================================================
+
+
+## 7. The problem statement
+
+
+===============================================================================
+
+
+## 8. Results and conclusion
+
+===============================================================================
+
+
+## 9. Applications of kNN
+
+===============================================================================
+
+
+## 10. References
 
 
