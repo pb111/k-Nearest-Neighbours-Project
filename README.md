@@ -8,8 +8,20 @@ In this project, I build a K Nearest Neighbours classifier
 
 ## Table of Contents
 
+
 I have categorized this project into various sections which are listed below:-
 
+
+1.	Introduction to k-Nearest Neighbours (kNN) algorithm
+2.	k-Nearest Neighbours (kNN) intuition
+3.	kNN algorithm in action
+4.	How to decide the number of neighbours in kNN
+5.	Eager learners vs lazy learners
+6.	Advantages and disadvantages of kNN algorithm
+7.	The problem statement
+8.	Results and conclusion
+9.	Applications of kNN
+10.	References
 
 
 ===============================================================================
@@ -39,7 +51,19 @@ The kNN algorithm intuition is very simple to understand. It simply calculates t
 
 ### Euclidean distance
 
+In mathematics, the Euclidean distance or Euclidean metric is the ordinary straight-line distance between two points in Euclidean space. The distance between the two points will then be calculated as the length of the hypotenuse of the two points. 
+
+Euclidean Distance between any pair of points (x1, y1) and (x2, y2) is given by
+
+[(x2-x1)^2 + (y2-y1)^2]^0.5 
+
+
 ### Manhattan distance
+
+Manhattan distance between any two points is the sum of the absolute differences of their cartesian coordinates. 
+Manhattan Distance between two points (x1, y1) and (x2, y2) is given by –
+
+|x1 – x2| + |y1 – y2|
 
 
 ===============================================================================
@@ -91,18 +115,19 @@ Unlike eager learners, lazy learners do less work in the training phase and more
 
 The advantages of kNN algorithm are as follows:-
 
-
 1.	kNN is simple to implement.
 2.	It executes quickly for small training datasets.
-3.	kNN performance is asymptotically similar to the performance of the Bayes classifier.
-4.	It does not need any prior knowledge about the structure of the data in training set.
-5.	In kNN algorithm, no retraining is required if the new training pattern is added to the existing training set.
+3.	It does not need any prior knowledge about the structure of the data in training set.
+4.	kNN is a lazy learning algorithm and therefore requires no training prior to making real time predictions. This makes the kNN algorithm much faster than other algorithms that require training, e.g. SVM, linear regression, etc.
+5.	In kNN algorithm, no retraining is required if the new training data is added to the existing training set.
+6.	There are only two parameters required to implement kNN. The value of k and the distance function (e.g. Euclidean or Manhattan distance etc.)
 
 
 The disadvantages of kNN algorithm are as follows:-
 
 1.	When the training set is large, it may take a lot of space and memory.
 2.	For every test data, the distance should be computed between test data and all the training data samples. Thus, a lot of time may be needed for testing.
+3.	Finally, the kNN algorithm doesn’t work well with categorical features since it is difficult to find distance between dimensions with categorical features.
 
 
 ===============================================================================
@@ -121,9 +146,42 @@ The disadvantages of kNN algorithm are as follows:-
 
 ## 9. Applications of kNN
 
+
+kNN algorithm is used for both classification and regression problems. It is used in the variety of applications such as 
+
+
+1.	Finance
+2.	Healthcare
+3.	Political science
+4.	Handwriting detection
+5.	Image recognition
+6.	Video recognition
+7.	Predicting the credit-rating of customers
+8.	Predicting the probability of a loan repayment
+
+
 ===============================================================================
 
 
 ## 10. References
+
+
+The work done in this project is inspired from following books and websites:-
+
+1.	Hands on Machine Learning with Scikit-Learn and Tensorflow by Aurélién Géron
+
+2.	Introduction to Machine Learning with Python by Andreas C. Müller and Sarah Guido
+
+3.	Udemy course – Machine Learning – A Z by Kirill Eremenko and Hadelin de Ponteves
+
+4.	https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+
+5.	https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn
+
+6.	http://dataaspirant.com/2016/12/23/k-nearest-neighbor-classifier-intro/
+
+7.	https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/
+
+
 
 
