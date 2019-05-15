@@ -1,6 +1,7 @@
 # k-Nearest Neighbours with Python and Scikit-Learn
 
-In this project, I build a K Nearest Neighbours classifier 
+
+k Nearest Neighbours is a very simple and one of the topmost machine learning algorithms. In this project, I build a k Nearest Neighbours classifier to classify the patients suffering from Breast Cancer. I have used the `Breast Cancer Wisconsin (Original) Data Set downloaded from the UCI Machine Learning Repository.
 
 
 ===============================================================================
@@ -55,7 +56,8 @@ In mathematics, the Euclidean distance or Euclidean metric is the ordinary strai
 
 Euclidean Distance between any pair of points (x1, y1) and (x2, y2) is given by
 
-[(x2-x1)^2 + (y2-y1)^2]^0.5 
+
+`[(x2-x1)^2 + (y2-y1)^2]^0.5`
 
 
 ### Manhattan distance
@@ -63,7 +65,8 @@ Euclidean Distance between any pair of points (x1, y1) and (x2, y2) is given by
 Manhattan distance between any two points is the sum of the absolute differences of their cartesian coordinates. 
 Manhattan Distance between two points (x1, y1) and (x2, y2) is given by –
 
-|x1 – x2| + |y1 – y2|
+
+`|x1 – x2| + |y1 – y2|`
 
 
 ===============================================================================
