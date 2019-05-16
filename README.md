@@ -1,7 +1,7 @@
 # k-Nearest Neighbours with Python and Scikit-Learn
 
 
-k Nearest Neighbours is a very simple and one of the topmost machine learning algorithms. In this project, I build a k Nearest Neighbours classifier to classify the patients suffering from Breast Cancer. I have used the `Breast Cancer Wisconsin (Original) Data Set downloaded from the UCI Machine Learning Repository.
+k Nearest Neighbours is a very simple and one of the topmost machine learning algorithms. In this project, I build a k Nearest Neighbours classifier to classify the patients suffering from Breast Cancer. I have used the `Breast Cancer Wisconsin (Original) Data Set` downloaded from the UCI Machine Learning Repository.
 
 
 ===============================================================================
