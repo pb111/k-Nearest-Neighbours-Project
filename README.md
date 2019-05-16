@@ -96,7 +96,17 @@ In the final step of the kNN algorithm, we assign the new data point `X` to the 
 ## 4. How to decide the number of neighbours in kNN
 
 
+While building the kNN classifier model, one question that come to my mind is what should be the value of nearest neighbours (k) that yields highest accuracy. This is a very important question because the classification accuracy depends upon our choice of k.
+
+
+The number of neighbours (k) in kNN is a parameter that we need to select at the time of model building. Selecting the optimal value of k in kNN is the most critical problem. A small value of k means that noise will have higher influence on the result. So, probability of overfitting is very high. A large value of k makes it computationally expensive in terms of time to build the kNN model. Also, a large value of k will have a smoother decision boundary which means lower variance but higher bias.
+
+
+The data scientists choose an odd value of k if the number of classes is even. We can apply the elbow method to select the value of k. To optimize the results, we can use Cross Validation technique. Using the cross-validation technique, we can test the kNN algorithm with different values of k. The model which gives good accuracy can be considered to be an optimal choice. It depends on individual cases and at times best process is to run through each possible value of k and test our result. 
+
+
 ===============================================================================
+
 
 ## 5. Eager learners vs lazy learners
 
@@ -137,6 +147,12 @@ The disadvantages of kNN algorithm are as follows:-
 
 
 ## 7. The problem statement
+
+
+In this project, I try to classify the patients suffering from breast cancer. I implement kNN algorithm with Python and Scikit-Learn. 
+
+
+To answer the question, I build a kNN classifier to predict whether or not a patient is suffering from breast cancer. I have used the **Breast Cancer Wisconsin (Original) Data Set** downloaded from the UCI Machine Learning Repository for this project.
 
 
 ===============================================================================
