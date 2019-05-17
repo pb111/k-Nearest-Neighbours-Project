@@ -45,7 +45,7 @@ In kNN, the neighbours are taken from a set of objects for which the class or th
 ===============================================================================
 
 
-## 2. K Nearest Neighbours (kNN) intuition
+## 2. k Nearest Neighbours (kNN) intuition
 
 The kNN algorithm intuition is very simple to understand. It simply calculates the distance between a sample data point and all the other training data points. The distance can be Euclidean distance or Manhattan distance. Then, it selects the k nearest data points where k can be any integer. Finally, it assigns the sample data point to the class to which the majority of the k data points belong.
 
